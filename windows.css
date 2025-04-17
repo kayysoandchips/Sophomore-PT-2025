@@ -16,3 +16,53 @@ p:hover {
   background-color: #d9c9f0;
   transition: 0.3s ease;
 }
+
+.nav-bar {
+  background-color: #CF9FFF; 
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.nav-bar li a {
+  color: #f3f0ff; /* Lavender Mist */
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  transition: 0.3s ease;
+  border-radius: 6px;
+}
+
+.nav-bar li a:hover {
+  background-color: #9b59b6; /* Softer Purple */
+  color: white;
+}
+
+/* Description Paragraph Styles */
+.linux-description {
+  background-color: #f3f0ff; 
+  color: #3d2c42; 
+  padding: 20px;
+  font-size: 1.2rem;
+  border-left: 5px solid #9b59b6; 
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  line-height: 1.6;
+  transition: all 0.3s ease;
+}
+
+.linux-description:hover {
+  background-color: #C3B1E1; 
+  color: #6a0dad;
+  border-left-color: #6a0dad; 
+}
