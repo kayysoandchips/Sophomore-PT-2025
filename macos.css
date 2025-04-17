@@ -32,3 +32,22 @@ body {background-color: #f3f0ff;
   color: white;
 }
 
+.mac-description {
+  background-color: #f3f0ff; /* Soft lavender background */
+  color: #3d2c42; /* Deep Plum text for readability */
+  border-left: 5px solid #6011d6; /* Rich purple accent line */
+  padding: 1.5rem;
+  font-size: 1.15rem;
+  line-height: 1.6;
+  border-radius: 10px;
+  max-width: 800px;
+  margin: 2rem auto;
+  box-shadow: 0 4px 12px rgba(96, 17, 214, 0.15); /* purple glow */
+  transition: 0.3s ease all;
+}
+
+.mac-description:hover {
+  background-color: #eae2ff; /* Slightly darker lavender on hover */
+  border-left-color: #4b0ca6; /* Even deeper purple accent */
+  color: #2b1c3a; /* Slightly bolder text color on hover */
+}
