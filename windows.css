@@ -68,37 +68,30 @@ body {background-color: #f3f0ff}
 }
 
 
-h4 {
-  color: #000000; 
+/* Heading Styling */
+ h4 {
+  color: #6011d6; /* Royal Purple */
   font-size: 24px;
   margin-bottom: 20px;
 }
 
-p {
+/* Subheading Styling */
+ p {
   font-size: 16px;
   margin: 15px 0 5px;
   font-weight: bold;
-  color: #4B0082; 
+  color: #6011d6; /* Royal Purple */
 }
 
-ul {
- 
+/* List Styling */
+ ul {
+  list-style-type: disc;
   margin-left: 20px;
   margin-bottom: 20px;
 }
 
-li {
+ li {
   font-size: 15px;
   line-height: 1.6;
-  color: #4B0082; 
-}
-
-ul {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 10px; /* Adjust spacing between items as needed */
-}
-
-ul li {
-  flex: 0 1 auto; /* Prevents items from stretching */
-}
+ max-width: 800px; 
+ }
