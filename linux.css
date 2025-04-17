@@ -53,3 +53,33 @@ body {
   color: #6a0dad;
   border-left-color: #6a0dad; 
 }
+
+
+
+/* Heading Styling */
+ h4 {
+  color: #6011d6; /* Royal Purple */
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Subheading Styling */
+ p {
+  font-size: 16px;
+  margin: 15px 0 5px;
+  font-weight: bold;
+  color: #6011d6; /* Royal Purple */
+}
+
+/* List Styling */
+ ul {
+  list-style-type: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+ li {
+  font-size: 15px;
+  line-height: 1.6;
+ max-width: 800px; 
+ }
