@@ -1,7 +1,7 @@
 body {background-color: #f3f0ff}
 
 
-p {
+.windows-description {
   background-color: #e6ddf5; /* Soft Lavender */
   padding: 20px;
   border-left: 5px solid #9b59b6; /* Soft Purple Accent */
@@ -12,7 +12,7 @@ p {
 }
 
 /* Optional: Add hover effect for fun */
-p:hover {
+.windows-description:hover {
   background-color: #d9c9f0;
   transition: 0.3s ease;
 }
