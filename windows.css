@@ -73,6 +73,7 @@ h4 {
   font-size: 24px;
   margin-bottom: 20px;
 }
+
 p {
   font-size: 16px;
   margin: 15px 0 5px;
@@ -80,3 +81,14 @@ p {
   color: #4B0082; 
 }
 
+ul {
+ 
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 15px;
+  line-height: 1.6;
+  color: #4B0082; 
+}
