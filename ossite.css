@@ -27,7 +27,7 @@ h2 { text-align: center;
 
 .os-titles {
   display: flex;
-  justify-content: space-around; /* or use 'space-between' or 'center' depending on your vibe */
+  justify-content: space-between; /* or use 'space-between' or 'center' depending on your vibe */
   align-items: center;
   flex-wrap: wrap; /* allows wrapping on smaller screens */
   gap: 20px;
