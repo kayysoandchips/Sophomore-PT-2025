@@ -20,16 +20,23 @@ h2 {
 }
 
 ul {
-  list-style-type: none; 
+  list-style: none;
   padding: 0;
-  margin: 0 auto;
+  margin: 40px auto;
   max-width: 800px;
+  background-color: #ede7f6; /* Light lavender box */
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
 }
 
 ul li {
- 
-  border: 1px solid #ddd; /* Light border for separation */
-  padding: 15px;
-  margin-bottom: 10px; /* Adds space between list items */
-  border-radius: 5px; /* Rounded corners */
-  transition: all 0.3s ease;
+  background-color: #ffffff;
+  border-left: 6px solid #a3e4d7; /* Mint Green accent bar */
+  margin: 15px 20px;
+  padding: 18px 20px;
+  border-radius: 8px;
+  font-size: 1.1rem;
+  color: #3d2c42; /* Deep Plum text */
+  line-height: 1.6;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
