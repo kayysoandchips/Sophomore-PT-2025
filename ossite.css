@@ -33,12 +33,12 @@ ul {
   max-width: 800px;
   background-color: #ede7f6; /* Light lavender box */
   border-radius: 12px;
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.05);
+  
 }
 
 ul li {
   background-color: #ffffff;
-  border-left: 6px solid #CCCCFF; /* Mint Green accent bar */
+  border-left: 6px solid #CCCCFF; 
   margin: 15px 20px;
   padding: 18px 20px;
   border-radius: 8px;
