@@ -1,5 +1,13 @@
 body { }
 
+p {
+
+  color: #D6E9FF; /* lighter ice blue */
+  text-align: center;
+}
+
+
+
 .network-titles {
   display: flex;
   justify-content: space-between; /* or use 'space-between' or 'center' depending on your vibe */
