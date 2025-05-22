@@ -26,6 +26,12 @@ body {
   border-radius: 6px;
 }
 
+
+.nav-bar li a:hover {
+  background-color: #48cae4; /* Seaside Tint */
+  color: white;
+}
+  
 h1 {
   color: #0077b6;
   text-align: center;
