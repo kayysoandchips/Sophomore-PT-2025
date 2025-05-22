@@ -14,15 +14,15 @@
 }
 
 .nav-bar li a {
-  color: #e0f7ff
-    text-decoration: none;
-
+  color: #f3f0ff; /* Lavender Mist */
+  text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
   padding: 6px 10px;
   transition: 0.3s ease;
   border-radius: 6px;
 }
+
 
 .nav-bar li a:hover {
   background-color: #00b4d8; 
