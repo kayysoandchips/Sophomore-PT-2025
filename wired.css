@@ -1,1 +1,25 @@
 
+.nav-bar {
+  background-color: #0077b6;
+  padding: 15px 0;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.nav-bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  gap: 40px;
+}
+
+.nav-bar li a {
+  color: #e0f7ff; 
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.1rem;
+  padding: 6px 10px;
+  transition: 0.3s ease;
+  border-radius: 6px;
+}
