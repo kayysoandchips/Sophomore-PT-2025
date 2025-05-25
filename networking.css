@@ -32,4 +32,24 @@ h1 {color: #FFFFFF;}
   color: white;
 }
 
+h4 {
+  color: #0096c7; 
+}
 
+ul {
+  list-style-type: square;
+  padding-left: 40px;
+}
+
+li {
+  background-color: #ade8f4; /* Soft tropical card blue */
+  border-left: 6px solid #0077b6;
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #90e0ef;
+}
