@@ -28,6 +28,11 @@ body {
   border-radius: 6px;
 }
 
+  .nav-bar li a.active {
+  background-color: #48cae4; /* Use a highlight color */
+  color: white;
+  border-radius: 6px;
+}
 
 h1 {
   color: #0054de;
