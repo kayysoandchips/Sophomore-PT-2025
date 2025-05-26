@@ -57,18 +57,19 @@ h4 {
 
 .component-list {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
-  padding: 20px;
-  list-style-type: none;
+  padding-left: 0;
+  margin-top: 20px;
 }
 
 .component-list li {
   background-color: #ade8f4;
   border-left: 6px solid #0077b6;
-  padding: 15px 20px;
+  padding: 15px;
   border-radius: 10px;
-  box-shadow: 0 2px 6px rgba(0, 119, 182, 0.2);
+  list-style-type: none;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
   transition: background-color 0.3s ease;
 }
 
