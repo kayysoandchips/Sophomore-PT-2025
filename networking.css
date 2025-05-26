@@ -1,4 +1,4 @@
-ebody { background-color:#00b4d8
+body { background-color:#00b4d8
      }
 
 .nav-bar {
@@ -24,6 +24,11 @@ ebody { background-color:#00b4d8
   padding: 6px 10px;
   transition: 0.3s ease;
   border-radius: 6px;
+}
+
+.nav-bar li a:hover {
+  background-color: #00b4d8; /* Brighter tropical blue */
+  color: white;
 }
 
 h1 {
