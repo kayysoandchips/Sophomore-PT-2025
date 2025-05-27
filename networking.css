@@ -47,19 +47,19 @@ h4 {
 }
 
 .component-section {
-  width: 300px;
+  width: 320px;
   padding: 20px;
   background-color: #e0f7fa;
   border-radius: 12px;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-  float: left;
   margin: 20px;
+  float: left; /* KEY: Moves the whole section to the left */
 }
 
 .section-title {
   text-align: left;
   color: #0077b6;
- 
+  font-size: 1.4rem;
   margin-bottom: 12px;
 }
 
@@ -75,7 +75,7 @@ h4 {
   margin-bottom: 8px;
   border-radius: 6px;
   color: #023e8a;
- 
+  font-size: 0.95rem;
   line-height: 1.4;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
   transition: background-color 0.3s ease;
