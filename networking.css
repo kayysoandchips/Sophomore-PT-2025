@@ -83,3 +83,23 @@ h4 {
 .component-list li:hover {
   background-color: #ade8f4;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Or space-between if you prefer */
+  gap: 20px;
+  padding: 20px;
+  align-items: stretch; 
+}
+
+.component-section {
+  width: 320px;
+  display: flex;
+  flex-direction: column; /* Allows vertical stacking inside */
+  justify-content: space-between;
+  background-color: #e0f7fa;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
