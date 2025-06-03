@@ -1,9 +1,9 @@
-body {background-color: #0f0f1c;}
+body {background-color: #E9F7F7;}
 
 .nav-bar {
-  background-color:#1e40af;
+  background-color:#3AB0A1;
   padding: 15px 0;
-  box-shadow: 0 0 10px #3b82f6;
+ box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
 
 .nav-bar ul {
@@ -16,21 +16,47 @@ body {background-color: #0f0f1c;}
 }
 
 .nav-bar li a {
-  color: #ffffff; 
+  color: #D6F0F0;
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 6px 10px;
-  transition: 0.3s ease;
+  padding: 6px 12px;
   border-radius: 6px;
+  transition: 0.3s;
 }
 
 .nav-bar li a:hover {
-  background-color: #3b82f6; /* Softer Purple */
-  color: white;
+background-color: #60C1B8;
+  color: #0E4D58;
 }
 
-h1 {  text-align: center;
-  color: #93c5fd;
-  margin-top: 60px;
+h1 {
+  color: #0E4D58;
+  text-align: center;
+  margin-top: 25px;
+}
+
+h4 {
+  color: #3AB0A1;
+  margin-left: 30px;
+}
+
+.hardware-section,
+.pros-section,
+.cons-section {
+  width: 80%;
+  margin: 15px auto;
+  padding: 15px 25px;
+  background-color: #D6F0F0;
+  border-left: 6px solid #3AB0A1;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.hardware-section li,
+.pros-section li,
+.cons-section li {
+  padding: 8px 0;
+  color: #0E4D58;
+  line-height: 1.5;
 }
