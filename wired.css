@@ -24,7 +24,7 @@ body {
 }
 
 .nav-bar li a {
-  color: #ade8f4;
+  color: #e0f7ff; /* Lavender Mist */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-bar li a:hover {
-  background-color: #48cae4;
+  background-color: #00b4d8; /* Brighter tropical blue */
   color: white;
 }
 
