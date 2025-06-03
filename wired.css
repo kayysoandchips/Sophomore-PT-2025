@@ -43,11 +43,6 @@ h1 {
   margin-top: 30px;
 }
 
-.componet header {
-color: #556b2f;
-  margin-top: 30px;
-  text-align: center;
-}
 
 p {
    max-width: 800px;
@@ -55,23 +50,37 @@ p {
   line-height: 1.6;
 }
 
-.componet section {
- max-width: 800px;
-  margin: 0 auto 30px auto;
-  padding-left: 20px;
+h4 {
+  color: #556b2f;
+  text-align: center;
+  margin-top: 30px;
 }
 
-.componet section {
-  background-color: #e0e8d9;
-  color: #3e4c1c;
-  padding: 10px 12px;
+
+.hardware-section li,
+.pros-section li,
+.cons-section li {
+  padding: 10px 14px;
   margin-bottom: 10px;
   border-radius: 6px;
-  list-style: disc;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
-  transition: background-color 0.3s ease;
+  font-size: 1rem;
+  line-height: 1.5;
+  list-style: disc;
 }
 
-li li:hover {
-  background-color: #cdd6bd;
+/* Section-specific colors */
+.hardware-section li {
+  background-color: #e6ecd9; /* Pale olive background */
+  color: #3e4c1c;
+}
+
+.pros-section li {
+  background-color: #d9ead3; /* Light green */
+  color: #2e4e1a;
+}
+
+.cons-section li {
+  background-color: #fce4d6; /* Soft peachy tan */
+  color: #5a2e1c;
 }
