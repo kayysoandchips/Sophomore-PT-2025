@@ -8,7 +8,7 @@ body {
 }
 
 .nav-bar {
-  background-color: #0077b6;
+  background-color: #556b2f;
   padding: 15px 0;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
 }
@@ -23,17 +23,17 @@ body {
 }
 
 .nav-bar li a {
-  color: #e0f7ff; /* Lavender Mist */
+  color:  #f0f4e1; /* Lavender Mist */
   text-decoration: none;
   font-weight: 600;
   font-size: 1.1rem;
-  padding: 6px 10px;
+  padding: 6px 12px;
   transition: 0.3s ease;
   border-radius: 6px;
 }
 
 .nav-bar li a:hover {
-  background-color: #00b4d8; /* Brighter tropical blue */
+  background-color: #6b8e23; /* Brighter tropical blue */
   color: white;
 }
 
