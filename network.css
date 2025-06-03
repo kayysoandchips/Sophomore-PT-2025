@@ -1,62 +1,57 @@
-body { background-color:#dbeafe; }
-
-h1 { color: #1e40af;
-   
-}
-
-p {
-  color: #1e3a8a; /* Deep Blue */
-  background-color: #e6f0ff; /* Light Blue Background */
-  padding: 20px 30px;
-  margin: 40px auto;
-  max-width: 700px;
-  border-left: 6px solid #4da6ff; /* Blue accent bar */
-  border-radius: 8px;
-  box-shadow: 0 2px 6px #b3d9ff;
-text-align: left;
-}
-
-h2 { text-align: center;
-   font-weight: 600;
-  color: #1e3a8a;
-  display: inline-block;
-  padding: 12px 30px;
-  border-radius: 12px;
-  border: 4px solid #60a5fa; 
-  box-shadow: 0 4px 10px #b3d9ff;
-  margin: 40px auto;
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
-   }
-
-.network-titles {
-  display: flex;
-  justify-content: space-between; /* or use 'space-between' or 'center' depending on your vibe */
-  align-items: center;
-  flex-wrap: wrap; /* allows wrapping on smaller screens */
-  gap: 20px;
-  margin: 40px auto;
-  max-width: 1000px;
-  padding: 10px 20px;
-}
-
-ul {
-  list-style: none;
+/* Reset and base styles */
+* {
+  margin: 0;
   padding: 0;
-  margin: 40px auto;
-  background-color: #ede7f6;
-  max-width: 800px;
-  border-radius: 12px;
-  
+  box-sizing: border-box;
 }
 
-ul li {
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #ffffff;
-  border-left: 6px solid #000G2F; 
-  margin: 15px 20px;
-  padding: 18px 20px;
-  border-radius: 8px;
-  color: #3d2c42;
+  color: #000000;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Main title */
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 15px;
+  color: #000;
+}
+
+/* Intro paragraph */
+.intro {
   font-size: 1.1rem;
-  line-height: 1.6;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  max-width: 700px;
+  margin: 0 auto 40px;
+  color: #333;
+}
+
+/* Cards layout */
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+/* Card links */
+.card {
+  background-color: #000000;
+  color: #ffffff;
+  text-decoration: none;
+  padding: 20px 30px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  transition: transform 0.2s, box-shadow 0.2s, background-color 0.3s;
+  font-size: 1.2rem;
+  min-width: 200px;
+}
+
+.card:hover {
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #000;
+  transform: translateY(-5px);
 }
