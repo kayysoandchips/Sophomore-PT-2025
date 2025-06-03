@@ -1,8 +1,7 @@
 
 
 body {
-  background-color: #F8F9FA;
-  
+ background-color: #f7f6f0;
   margin: 0;
   padding: 20px;
   color: #1a1a1a; 
@@ -38,3 +37,41 @@ body {
   color: white;
 }
 
+h1 {
+  text-align: center;
+  color: #3e4c1c;
+  margin-top: 30px;
+}
+
+h4 {
+  color: #556b2f;
+  margin-top: 30px;
+  text-align: center;
+}
+
+p {
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+  line-height: 1.6;
+}
+
+ul {
+  max-width: 800px;
+  margin: 0 auto 30px auto;
+  padding-left: 20px;
+}
+
+li {
+  background-color: #e0e8d9;
+  color: #3e4c1c;
+  padding: 10px 12px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  list-style: disc;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+  transition: background-color 0.3s ease;
+}
+
+li:hover {
+  background-color: #cdd6bd;
+}
