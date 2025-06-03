@@ -44,19 +44,19 @@ h1 {
 }
 
 .componet header {
-  color: #556b2f;
+color: #556b2f;
   margin-top: 30px;
   text-align: center;
 }
 
-.descreption {
-  max-width: 800px;
+.description {
+   max-width: 800px;
   margin: 0 auto 20px auto;
   line-height: 1.6;
 }
 
 .componet section {
-  max-width: 800px;
+ max-width: 800px;
   margin: 0 auto 30px auto;
   padding-left: 20px;
 }
